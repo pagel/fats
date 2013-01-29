@@ -65,6 +65,8 @@
 &lt;/Directory&gt;
 </code></pre>
 
+<p>You must also modify the .htaccess file in the www directory to reflect the host name of the server on which the application resides.  Failure to make this change will result in an error condition.</p>
+
 <h3>Required Directories</h3>
 
 <p>The FATS web application is configured to store file uploads outside of the web root and downloads in the web root.  These paths appear in src/DAL/DataAccessLayer.php and must be updated as appropriate to avoid issues with upload and download functionality.</p>

@@ -1,4 +1,4 @@
-McCormick Faculty Advancement Tracking System
+This is the McCormick Faculty Advancement Tracking System code repository.
 
 Please visit the project page at http://pagel.github.com/fats.
 

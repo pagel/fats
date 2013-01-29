@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^fats-pagel.tech.northwestern.edu$
+RewriteRule ^$ http://fats-pagel.tech.northwestern.edu/index.php [L,R=301]
+RewriteCond %{REQUEST_URI} !(.*)\.php$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ webservice.php [QSA,L]

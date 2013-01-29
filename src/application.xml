@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fats>
+    <options>
+        <enablemaintenancemode>0</enablemaintenancemode>
+        <enabledemomode>1</enabledemomode>
+        <enabledebugging>1</enabledebugging>
+    </options>
+    <database>
+        <dsn>mysql:dbname=fats;host=127.0.0.1</dsn>
+        <user>pagel</user>
+        <password>edc52474</password>
+    </database>
+    <admins>
+        <netid>gsp958</netid>
+        <netid>awolff</netid>
+        <netid>kle375</netid>
+        <netid>djb669</netid>
+    </admins>
+</fats>
